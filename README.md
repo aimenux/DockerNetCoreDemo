@@ -21,8 +21,8 @@ Dockerizing .NET Core Apps
 > - `docker start -i [container-id]`
 
 > To clean docker ressources, type the following commands :
-> - docker stop $(docker ps -aq)
-> - docker rm $(docker ps -aq)
-> - docker rmi -f $(docker images -aq)
+> - `docker stop $(docker ps -aq)`
+> - `docker rm $(docker ps -aq)`
+> - `docker rmi -f $(docker images -aq)`
 
 **`Tools`** : vs22, net 6.0, docker
