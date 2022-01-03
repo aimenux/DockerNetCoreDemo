@@ -9,13 +9,13 @@ Dockerizing .NET Core Apps
 >
 > To run code, there are multiple ways :
 >
-> :one: start visual studio docker profile in debug or release mode.
+> :zap: start visual studio docker profile in debug or release mode.
 >
-> :two: type the following commands in your favorite terminal :
+> :zap: type the following commands in your favorite terminal :
 > - `docker build -t docker-net-core-demo-image -f .\App_01\Dockerfile .`
 > - `docker run -it docker-net-core-demo-image`
 >
-> :three: type the following commands in your favorite terminal :
+> :zap: type the following commands in your favorite terminal :
 > - `docker build -t docker-net-core-demo-image -f .\App_01\Dockerfile .`
 > - `docker create docker-net-core-demo-image
 > - `docker start -i [container-id]`
