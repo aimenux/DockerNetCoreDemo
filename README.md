@@ -8,7 +8,9 @@ Dockerizing .NET Core Apps
 In this repo, i m using docker in order to build several types of .net core applications :
 
 > :one: `App_01` : Console application
+>
 > :two: `App_02` : Worker application
+>
 > :three: `App_03` : WebApi application
 
 :rocket: To run code, type the following commands in your favorite terminal :
