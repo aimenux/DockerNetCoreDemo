@@ -18,9 +18,9 @@ public class Service : IService
 
     public Task RunAsync()
     {
-        _logger.LogTrace($"Starting {nameof(RunAsync)}");
-        _logger.LogInformation("Hello Docker !");
-        _logger.LogTrace($"Stopping {nameof(RunAsync)}");
+        _logger.LogTrace($"Starting {nameof(Service)}");
+        _logger.LogInformation("Hello Docker at {time}!", DateTimeOffset.Now);
+        _logger.LogTrace($"Stopping {nameof(Service)}");
         return Task.CompletedTask;
     }
 }
