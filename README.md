@@ -30,8 +30,8 @@ In this repo, i m using docker in order to build several types of .net core appl
 >
 >
 :rocket: To clean docker resources, type the following commands :
-> - `docker stop $(docker ps -aq)`
-> - `docker rm -f $(docker ps -aq)`
-> - `docker rmi -f $(docker images -aq)`
+> - `docker stop $(docker ps -aq --filter "name=app0*")`
+> - `docker rm -f $(docker ps -aq --filter "name=app0*")`
+> - `docker rmi -f $(docker images -aq --filter "reference=app0*")`
 
 **`Tools`** : net 9.0, docker
